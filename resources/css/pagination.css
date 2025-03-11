@@ -1,0 +1,36 @@
+/* Grundstyling für die Paginierung */
+.pagination {
+    font-size: 0.875rem; 
+}
+
+/* Styling für alle Links */
+.pagination .page-link {
+    color: #333;  
+    background-color: #fff;  
+    border: 1px solid #ddd;  
+    padding: 0.25rem 0.5rem;  
+    border-radius: 0.25rem;  
+}
+
+/* Hover-Effekte */
+.pagination .page-link:hover {
+    color: darkorange;  
+    background-color: #f0f0f0;  
+    border-color: #ccc;  
+}
+
+/* Aktiver Link */
+.pagination .page-item.active .page-link {
+    color: #fff;  
+    background-color: darkorange; ;  
+    border-color: darkorange; ; 
+}
+
+/* Deaktivierte Links */
+.pagination .page-item.disabled .page-link {
+    color: #aaa;  
+    background-color: #f0f0f0;  
+    border-color: #ddd;  
+    cursor: not-allowed;  
+}
+

@@ -1,0 +1,17 @@
+.middle-content {
+    margin-top: 30px;
+}
+
+.middle-content h1 {
+    margin-bottom: 20px; 
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+div.created-and-updated {
+    font-size: 0.8em; 
+    opacity: 0.6;  
+    color: #888; 
+    font-style: italic; 
+    margin-bottom: 30px;
+}

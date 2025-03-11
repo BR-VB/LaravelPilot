@@ -1,0 +1,99 @@
+    /* Header */
+    header {
+        background-color: #f16a50;
+        padding: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        flex-shrink: 0;
+    }
+
+    header .date {
+        font-size: 0.8rem;
+        color: white;
+        position: absolute;
+        left: 20px;
+    }
+
+    header .logo {
+        font-size: 1.5rem;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        width: 100%;
+    }
+
+    header .logo a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    header .logo a:hover {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    header nav {
+        display: flex;
+        position: absolute;
+        right: 20px;
+    }
+
+    header nav a {
+        color: white;
+        text-decoration: none;
+        margin-left: 20px;
+        font-size: 1rem;
+    }
+
+    header nav a:hover {
+        text-decoration: underline;
+        color: white;
+    }
+
+    /* Header - LanguageSwitcher */
+    header .language-switcher {
+        margin-right: 70px;
+        display: flex;
+        align-items: center;
+    }
+
+    header .language-switcher label {
+        color: white;
+        margin-right: 10px;
+        font-size: 1rem;
+    }
+
+    header .language-switcher select {
+        font-size: 14px;
+        padding: 6px 10px;
+        height: 35px;
+        border: 1px solid #fff;
+        border-radius: 5px;
+        background-color: #f8f8f8;
+        color: #333;
+        appearance: none;
+        cursor: pointer;
+        transition: border-color 0.3s ease;
+        outline: none;
+    }
+
+    header .language-switcher select:hover,
+    header .language-switcher select:focus {
+        border-color: #ccc;
+        background-color: #e9f5ff;
+    }
+
+    header .language-switcher select option {
+        padding: 8px;
+        background-color: #fff;
+        color: #333;
+    }
+
+    header .language-switcher select option:selected {
+        background-color: #f8f8f8;
+        ;
+        color: white;
+    }
+

@@ -1,0 +1,212 @@
+.model-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.model-form .create-field {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-bottom: 25px;
+}
+
+.model-form .create-field-label {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* Eingabefelder explizit breiter machen */
+.model-form .create-field-text,
+.model-form .create-field-textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+    box-sizing: border-box;
+}
+
+/* Textarea spezifisch */
+.model-form .create-field-textarea {
+    resize: vertical;
+}
+
+/* Checkbox und Text in einer Zeile */
+.model-form .create-field-checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.create-field-checkbox-container label {
+    font-size: 14px;
+    margin: 0;
+}
+
+.model-form .create-field-checkbox {
+    width: 18px;
+    height: 18px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+    background-color: #fff;
+}
+
+/* Button */
+.model-form .submit-button {
+    padding-top: 25px;
+    text-align: left;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.model-form .create-submit-button {
+    background-color: #e67e22;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.model-form .create-submit-button:hover {
+    background-color: #d35400;
+    text-decoration:none;
+}
+
+.model-form .create-field-text:disabled,
+.model-form .create-field-textarea:disabled,
+.model-form .create-field-checkbox:disabled {
+    background-color: #f0f0f0;
+    color: #999;
+    cursor: not-allowed;
+    border-color: #ddd;
+}
+
+.model-form .create-field-text,
+.model-form .create-field-textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+    box-sizing: border-box;
+}
+
+.model-form .create-field-select {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+}
+
+.model-form .create-field-select:disabled {
+    background-color: #f0f0f0;
+    cursor: not-allowed;
+    border-color: #ddd;
+}
+
+.model-form .create-field-select:focus {
+    outline: none;
+    border-color: #e67e22;
+    box-shadow: 0 0 5px rgba(230, 126, 34, 0.5);
+}
+
+.model-form .create-field-select:hover {
+    border-color: #e67e22;
+}
+
+.model-form .create-field-select option {
+    background-color: #fff;
+    color: #333;
+}
+
+.model-form .create-field-select option:checked {
+    background-color: #e67e22 !important;
+    color: #fff !important;
+}
+
+.model-form .create-field-text:focus {
+    outline: none;
+    border-color: #e67e22;
+    box-shadow: 0 0 5px rgba(230, 126, 34, 0.5);
+}
+
+.model-form .create-field-text:hover {
+    border-color: #e67e22;
+}
+
+.model-form .create-field-textarea:focus {
+    outline: none;
+    border-color: #e67e22;
+    box-shadow: 0 0 5px rgba(230, 126, 34, 0.5);
+}
+
+.create-field-checkbox:checked {
+    background-color: white;
+    border-color: #888;
+}
+
+.model-form .create-field-textarea:hover {
+    border-color: #e67e22;
+}
+
+.model-form .create-field-checkbox:focus {
+    outline: none;
+    border-color: #e67e22;
+    box-shadow: 0 0 5px rgba(230, 126, 34, 0.5);
+}
+
+.model-form .create-field-checkbox:hover {
+    border-color: #e67e22;
+}
+
+.create-field-checkbox:checked::before {
+    content: '✓';
+    display: block;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}
+
+.model-form .created-and-updated {
+    font-size: 0.8em; 
+    opacity: 0.6;  
+    color: #888; 
+    font-style: italic; 
+    margin-bottom: 20px;
+}
+
+.model-form .small-gray-link {
+    font-size: 0.8em; 
+    opacity: 0.6;  
+    color: #888; 
+    font-style: italic; 
+    margin-bottom: 20px;
+}

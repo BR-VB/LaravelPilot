@@ -1,0 +1,15 @@
+{
+    "label_project": "Projekt",
+    "label_title": "Titel",
+    "label_description": "Beschreibung",
+    "label_create_button": "Projekt erstellen",
+    "label_delete_button": "Löschen bestätigen",
+    "label_cancel_button": "Abbrechen",
+    "placeholder_title": "Titel des Projekts",
+    "placeholder_description": "Beschreibung des Projekts",
+    "headline_project_create": "Neues Projekt",
+    "headline_project_delete": "Projekt löschen",
+    "headline_project_overview": "Projekte - Übersicht",
+    "message_error_create_project": "Fehler Projekt erstellen: ",
+    "message_error_delete_project": "Fehler Projekt löschen: "
+}

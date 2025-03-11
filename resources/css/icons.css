@@ -1,0 +1,79 @@
+div.icons-action-icon a i,
+.model-links a i {
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 1px;
+    transition: color 0.2s ease, transform 0.2s ease;
+}
+
+div.icons-action-icon a:hover i.fa-th-large,
+.model-links a:hover i.fa-th-large {
+    color: #3297e0;
+}
+
+div.icons-action-icon a:hover i.fa-clock,
+.model-links a:hover i.fa-clock {
+    color: #3297e0;
+}
+
+div.icons-action-icon a:hover i.fa-tasks,
+.model-links a:hover i.fa-tasks {
+    color: #53a453;
+}
+
+div.icons-action-icon a:hover i.fa-bullseye,
+.model-links a:hover i.fa-bullseye {
+    color:#FFC300;
+}
+
+div.icons-action-icon a:hover i.fa-calendar-alt,
+.model-links a:hover i.fa-calendar-alt {
+    color:#FFC300;
+}
+
+div.icons-action-icon a:hover i.fa-file-alt,
+.model-links a:hover i.fa-file-alt {
+    color:#3297e0;
+}
+
+div.icons-action-icon a:hover i.fa-trash,
+.model-links a:hover i.fa-trash {
+    color: #FF0000;
+}
+
+div.icons-action-icon a:hover i.fa-plus-circle,
+.model-links a:hover i.fa-plus-circle {
+    color: #53a453;
+}
+
+div.icons-action-icon a:hover i.fa-eye,
+.model-links a:hover i.fa-eye {
+    color: #3297e0;
+}
+
+div.icons-action-icon a:hover i.fa-exchange-alt,
+.model-links a:hover i.fa-exchange-alt {
+    color: #17a2b8;
+}
+
+div.icons-action-icon a:hover i.fa-pencil-alt,
+.model-links a:hover i.fa-pencil-alt {
+    color: #FFC300;
+}
+
+div.icons-action-icon a:hover i.fa-language,
+.model-links a:hover i.fa-language {
+    color: #c350c3;
+}
+
+div.icons-action-icon a:hover i.fa-arrow-left,
+.model-links a:hover i.fa-arrow-left {
+    color: #333;
+}
+
+div.icons-action-icon a i {
+    color: #e67e22;
+}
+div.icons-action-icon a i:hover {
+    color: #d35400;
+}

@@ -1,0 +1,52 @@
+    /* Responsiveness */
+    @media (max-width: 768px) {
+        .left-nav .hamburger {
+            display: block;
+        }
+
+        .left-nav .desktop-nav {
+            display: none;
+        }
+
+        .left-nav .menu {
+            display: none;
+        }
+
+        .left-nav .menu.show {
+            display: block;
+        }
+
+        .content .left,
+        .content .middle,
+        .content .right {
+            width: 100%;
+            margin: 0 0 20px 0;
+        }
+
+        .content {
+            flex-direction: column;
+        }
+    }
+
+    /* Große Bildschirme (ab 769px) */
+    @media (min-width: 769px) {
+        .left-nav .hamburger {
+            display: none;
+        }
+
+        .left-nav .desktop-nav {
+            display: block;
+        }
+
+        .left-nav .menu {
+            display: none;
+        }
+
+        .left-nav .menu.show {
+            display: none;
+        }
+
+        .content {
+            flex-direction: row;
+        }
+    }

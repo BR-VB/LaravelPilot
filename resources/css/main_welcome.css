@@ -1,0 +1,114 @@
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+
+    /* list stye */
+    .no-bullets {
+        list-style-type: none;
+    }
+
+    /* Content */
+    .content-welcome {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 10px;
+        flex-grow: 1;
+        margin-top: 10px;
+    }
+
+    .content-welcome a {
+        text-decoration: none;
+        color: #ff7b00;
+        transition: color 0.3s ease;
+    }
+
+    .content-welcome a:hover {
+        color: #e06d00;
+    }
+
+    .content-welcome .column-welcome {
+        width: 48%;
+        background-color: #fff;
+        margin-bottom: 20px;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        box-sizing: border-box;
+    }
+
+    .content-welcome .column-welcome .show-details-link {
+        text-decoration: none;
+        margin-top: 15px;
+        color: #ff7b00;
+        display: inline-flex;
+        align-items: center;
+        transition: color 0.2s ease;
+    }
+
+    .content-welcome .column-welcome .show-details-link:hover {
+        color: #f4a07a;
+        border-color: #f4a07a;
+    }
+
+    .content-welcome .column-welcome .show-details-link .icon {
+        font-size: 14px;
+        margin-left: 8px;
+        transition: color 0.2s ease;
+    }
+
+    .content-welcome .column-welcome .show-details-link:hover .icon {
+        color: #f4a07a;
+    }
+
+    .content-welcome .column-welcome .external-link {
+        color: #7bb6e2;
+        text-decoration: none;
+        position: relative;
+    }
+
+    .content-welcome .column-welcome .external-link::after {
+        content: ' ↗';
+        font-size: 0.8em;
+        margin-left: 5px;
+        color: #7bb6e2;
+    }
+
+    /* Hover-Effekt */
+    .content-welcome .column-welcome .external-link:hover {
+        color: #5a8bb1;
+        text-decoration: none;
+    }
+
+    /* Fokus-Effekt */
+    .content-welcome .column-welcome .external-link:focus {
+        outline: 2px solid #5a8bb1;
+    }
+
+    /* List style */
+    .content-welcome .column-welcome ul {
+        list-style: none;
+        padding-left: 15px;
+    }
+
+    .content-welcome .column-welcome li {
+        list-style: none;
+        padding-left: 0;
+    }
+
+    .white-space-pre-wrap {
+        white-space: pre-wrap;
+    }
+
+    /* Responsiveness */
+    @media (max-width: 768px) {
+        .content-welcome .column-welcome {
+            width: 100%;
+        }
+    }

@@ -1,0 +1,22 @@
+{
+  "_browser-ponyfill-Dcpw6TUh.js": {
+    "file": "assets/browser-ponyfill-Dcpw6TUh.js",
+    "name": "browser-ponyfill",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  },
+  "index.html": {
+    "file": "assets/index-BeyyhW5H.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "dynamicImports": [
+      "_browser-ponyfill-Dcpw6TUh.js"
+    ],
+    "css": [
+      "assets/index-Cg388KK0.css"
+    ]
+  }
+}

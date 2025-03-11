@@ -1,0 +1,59 @@
+    /* Message Conatainer */
+    .message-container {
+        padding: 5px 10px;
+        margin: 10px 0;
+        border-radius: 5px;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        overflow: hidden;
+        transition: height 0.3s ease, padding 0.3s ease;
+        font-size: 14px;
+        font-family: Arial, sans-serif;
+    }
+
+    /* Message Content (innerer Container) */
+    .message-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    /* Wenn der Container sichtbar ist, wird er in voller Höhe angezeigt */
+    .message-container.show {
+        display: flex;
+        height: auto;
+        padding: 5px 10px;
+    }
+
+    /* Fehlernachricht */
+    .message-container.error {
+        background-color: #f8d7da;
+        color: #6e170a;
+        border: 1px solid #f5c6cb;
+    }
+
+    /* Erfolgsmeldung */
+    .message-container.success {
+        background-color: #d3ecbf;
+        color: #08681f;
+        border: 1px solid #c3e6cb;
+    }
+
+    /* Informationsnachricht */
+    .message-container.info {
+        background-color: #b5d1ef;
+        color: #1b6a98;
+        border: 1px solid #b8daff;
+    }
+
+    /* Warnmeldung */
+    .message-container.warning {
+        background-color: #f8f1c3;
+        color: #b89330;
+        border: 1px solid #ffeeba;
+    }
+

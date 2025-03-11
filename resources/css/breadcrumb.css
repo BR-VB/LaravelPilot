@@ -1,0 +1,38 @@
+.breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    color: #555;
+    margin: 10px 0;
+    padding: 5px 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: #ff7b00;
+    transition: color 0.3s ease;
+}
+
+.breadcrumb a:hover {
+    color: #e06d00;
+}
+
+.breadcrumb a:last-child {
+    color: #333;
+    pointer-events: none;
+}
+
+.breadcrumb a+a::before {
+    content: ">";
+    margin: 0 5px;
+    color: #aaa;
+}
+
+.breadcrumb a:hover:last-child {
+    color: #333;
+}
